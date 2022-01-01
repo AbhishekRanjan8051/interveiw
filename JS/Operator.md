@@ -78,9 +78,36 @@
 
 > OR Operators sign is ||
 
+#### **_AND ( && )_**
+
+| first operation | second operation | Output |
+| --------------- | ---------------- | ------ |
+| true            | true             | true   |
+| false           | false            | false  |
+| true            | false            | false  |
+| false           | true             | false  |
+
+#### **_OR( || )_**
+
+| first operation | second operation | Output |
+| --------------- | ---------------- | ------ |
+| true            | true             | true   |
+| false           | false            | false  |
+| true            | false            | true   |
+| false           | true             | true   |
+
+
+### **_NOT ( ! )_**
+
+| Operation | Output |
+| --------- | ------ |
+| true      | false  |
+| false     | true   |
+
+
 ### Conditional Operators
 
-```
+```javascript
  if(what to check){
    // if true the wrtie what to return
 
@@ -89,7 +116,7 @@
 }
 ```
 
-```
+```javascript
 switch(expression) {
   case (condition1):
    // if condition1 is true then what you want to print

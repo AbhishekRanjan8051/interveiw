@@ -30,7 +30,7 @@
 
 > - If the number is written with quotes it changes to **_String_**. 
 
-``` 
+```javascript 
 var str = "13";   
 var str1 = "13"
 
@@ -49,7 +49,7 @@ console.log(str === str1);
 
   ### Boolean
   > - It Represents Only Logical data types that can only have the value `true` or `false`.
-  ```
+  ```javascript
   var a = 2;
   var b = 3;
   var c = 2;
@@ -64,7 +64,7 @@ console.log(str === str1);
   ### Undefined
   > - When the variable is declared but not assigned, it has the value `undefined` and also it's type is `undefined`.
 
-  ```
+  ```javascript
   var x;
   console.log(x);
   > undefined
