@@ -26,10 +26,10 @@
    **HTML**
 
   ```html
-  <!DOCTYPE html>
+ 
   <html>
     <body>
-      <h2>position: static;</h2>
+      <h2>Position: Static</h2>
 
       <p>
         An element with position: static; is not positioned in any special way;
