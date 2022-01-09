@@ -10,7 +10,7 @@
 - Conditional Operators
 - Assingment Operators
 
-### Arithmetic Operators
+## Arithmetic Operators
 
 > - Artithmetic Operators are used to perform some arithmetic operations such as **add** or **subtract** or **divide** or **multiplication**
 > - Arithmetic Operators work upon **_BODMAS_** rule.
@@ -50,7 +50,7 @@
 <br/>
 <br/>
 
-### Comparision Operators
+## Comparision Operators
 
 | OPerator                         | Example   | Output |
 | -------------------------------- | --------- | ------ |
@@ -67,7 +67,7 @@
 <br/>
 <br/>
 
-### Logical Operators
+## Logical Operators
 
 | Operators | Example          | Output |
 | --------- | ---------------- | ------ |
@@ -96,7 +96,6 @@
 | true            | false            | true   |
 | false           | true             | true   |
 
-
 ### **_NOT ( ! )_**
 
 | Operation | Output |
@@ -104,8 +103,9 @@
 | true      | false  |
 | false     | true   |
 
+<br/>
 
-### Conditional Operators
+## Conditional Operators
 
 ```javascript
  if(what to check){
@@ -117,15 +117,14 @@
 ```
 
 ```javascript
-switch(expression) {
-  case (condition1):
-   // if condition1 is true then what you want to print
+switch (expression) {
+  case condition1:
+    // if condition1 is true then what you want to print
     break;
-  case (condition2):
-      // if condition2 is true then what you want to print
+  case condition2:
+    // if condition2 is true then what you want to print
 
     break;
-
 }
 ```
 
@@ -133,3 +132,26 @@ switch(expression) {
   > variablename = (Condition)?value1(if satisfy the condition):value2  
   > `var age = 18`  
   > `var checkvalid = (age<18) ? "Too young to vote" : "old enough to vote"`
+
+<br/>
+
+## Assingment Operators
+
+> - Assingment operators Contain More than One Arithmatic Operators, in One Arithmatic Operator is Equal to (=).
+
+### There are Some of the Assingment Operators are :-
+
+| Operator | Example   | Same as      |
+| -------- | --------- | ------------ |
+| =        | `x = y`   | `x = y`      |
+| +=       | `x += y`  | `x = x + y`  |
+| -=       | `x -= y`  | `x = x - y`  |
+| *=      | `x *= y`  | `x = x * y`  |
+| /=       | `x /= y`  | `x = x / y`  |
+| %=       | `x %= y`  | `x = x % y`  |
+| <<=      | `x <<= y` | `x = x << y` |
+| >>=      | `x >>= y` | `x = x >> y` |
+| &=       | `x &= y`  | `x = x & y`  |
+| ^=       | `x ^= y`  | `x = x ^ y`  |
+| **=    | `x **= y` | `x = x ** y` |
+
