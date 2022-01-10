@@ -2,25 +2,27 @@
 
 ## Table of Contents
 
-| No. | Question                                                                                                                  |
-| --- | ------------------------------------------------------------------------------------------------------------------------- |
-| 1.  | [What is HTML?](#what-is-html)                                                                                            |
-| 2.  | [What is Differences between HTML Element and tags?](#what-is-difference-between-html-element-and-tags)                   |
-| 3.  | [What is HTML attributes?](#what-is-html-attributes)                                                                      |
-| 4.  | [What is Block level elements?](#what-is-block-level-elements)                                                            |
-| 5.  | [What is Inline elements?](#what-is-inline-elements)                                                                      |
-| 6.  | [Why we use Comments in HTML?](#why-we-use-comments-in-html)                                                              |
-| 7.  | [How to create Hyperlinks in HTML?](#how-to-create-hyperlinks-in-html)                                                    |
-| 8.  | [Name Some Common lists that are used when designing a page](#name-some-common-lists-that-are-used-when-designing-a-page) |
-| 9.  | [What is an Image map](#what-is-an-image-map)                                                                             |
-| 10. | [What is Style Sheet?](#what-is-style-sheet)                                                                              |
-| 11. | [Explain the layout of HTML](#explain-the-layout-of-html)                                                                 |
-| 12. | [What are the tag used to separate section of text?](#what-are-the-tag-used-to-separate-section-of-text)                  |
-| 13. | [What is the difference between div and span tags](#what-is-the-difference-between-div-and-span-tags)                     |
-| 14. | [What is the purpose of alternative text in image tag?](#what-is-the-purpose-of-alternative-text-in-image-tag)            |
-| 15. | [is !DOCTYPE html tag considered as HTML tag](#is-doctype-html-tag-considered-as-html-tag)                                |
-| 16. | [Can we create multi-colored text on web page using HTML](#can-we-create-multi-colored-text-on-web-page-using-html)       |
-| 17. | [How to make a backgroud image of a web page](#how-to-make-a-backgroud-image-of-a-web-page)                               |
+| No. | Question                                                                                                                                      |
+| --- | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1.  | [What is HTML?](#what-is-html)                                                                                                                |
+| 2.  | [What is Differences between HTML Element and tags?](#what-is-difference-between-html-element-and-tags)                                       |
+| 3.  | [What is HTML attributes?](#what-is-html-attributes)                                                                                          |
+| 4.  | [What is Block level elements?](#what-is-block-level-elements)                                                                                |
+| 5.  | [What is Inline elements?](#what-is-inline-elements)                                                                                          |
+| 6.  | [Why we use Comments in HTML?](#why-we-use-comments-in-html)                                                                                  |
+| 7.  | [How to create Hyperlinks in HTML?](#how-to-create-hyperlinks-in-html)                                                                        |
+| 8.  | [Name Some Common lists that are used when designing a page](#name-some-common-lists-that-are-used-when-designing-a-page)                     |
+| 9.  | [What is an Image map](#what-is-an-image-map)                                                                                                 |
+| 10. | [What is Style Sheet?](#what-is-style-sheet)                                                                                                  |
+| 11. | [Explain the layout of HTML](#explain-the-layout-of-html)                                                                                     |
+| 12. | [What are the tag used to separate section of text?](#what-are-the-tag-used-to-separate-section-of-text)                                      |
+| 13. | [What is the difference between div and span tags](#what-is-the-difference-between-div-and-span-tags)                                         |
+| 14. | [What is the purpose of alternative text in image tag?](#what-is-the-purpose-of-alternative-text-in-image-tag)                                |
+| 15. | [is !DOCTYPE html tag considered as HTML tag](#is-doctype-html-tag-considered-as-html-tag)                                                    |
+| 16. | [Can we create multi-colored text on web page using HTML](#can-we-create-multi-colored-text-on-web-page-using-html)                           |
+| 17. | [How to make a backgroud image of a web page](#how-to-make-a-backgroud-image-of-a-web-page)                                                   |
+| 18. | [What is the use of span tag](#what-is-the-use-of-span-tag)                                                                                   |
+| 19. | [Explain the difference between the Local Stroage and Session Stroage](#explain-the-difference-between-the-local-stroage-and-session-stroage) |
 
 <br/>
 
@@ -445,12 +447,13 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
- 17. ## How to make a backgroud image of a web page?
- > - There is simple way put backgroud images on web page to give attribute `background` to `body` tag.
+17. ## How to make a backgroud image of a web page?
+    > - There is simple way put backgroud images on web page to give attribute `background` to `body` tag.
 
- **such as** : -
- ```html
- <!DOCTYPE html>
+**such as** : -
+
+```html
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -458,10 +461,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
-  <body background="https://static.vecteezy.com/packs/media/components/global/search-explore-nav/img/vectors/term-bg-1-666de2d941529c25aa511dc18d727160.jpg">
-   
-  </body>
+  <body
+    background="https://static.vecteezy.com/packs/media/components/global/search-explore-nav/img/vectors/term-bg-1-666de2d941529c25aa511dc18d727160.jpg"
+  ></body>
 </html>
 ```
 
+<br/>
 
+**[⬆ Back to Top](#table-of-contents)**
+
+18. ## What is the use of `span` tag?
+
+    > **There are many uses of `span` tag** : -
+
+    > - To add color on text.
+
+    ```html
+    <span style="color: red">This text has color:</span>
+    ```
+
+    > - To add background on text.
+
+    ```html
+    <span style="background: red">This text has background</span>
+    ```
+
+    > - Highlight any color text.
+
+    ```html
+    <p>
+      this is simple text with
+      <span style="font-weight:bold">highlighted</span>word
+    </p>
+    ```
+
+    <br/>
+
+**[⬆ Back to Top](#table-of-contents)**
+
+19. ## Explain the difference between the Local Stroage and Session Stroage.
+
+    > - **_Local Stroage_**
+    >   - The Local Stroage object store the without an expiry date.
+    >   - In the Local Stroage object data will not delete , when the browser is closes.
+    >   - The Data in the Local Stroage object can be shared between multiple windows of the browser.
+
+      <br/>
+
+    > - **_Session Stroage_**
+    >   - The Session Stroage object stores the data for only one session.
+    >   - In the session Stroage object data will deleted when the browser is closed.
+    >   - The data in the Session Stroage is accessible only in the current window of the browser.
